@@ -25,6 +25,7 @@ int main() {
 ```
 Usage for input :
 
+``` C++
 #include "include/stdli.cpp"
 
 int main() {
@@ -32,3 +33,4 @@ int main() {
     input("Enter you name", name");
     println("Hello " + name);
 }
+```
