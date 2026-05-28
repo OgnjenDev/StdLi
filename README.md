@@ -30,7 +30,7 @@ Usage for input :
 
 int main() {
     std::string name;
-    input("Enter you name", name");
+    input("Enter you name", name);
     println("Hello " + name);
 }
 ```
