@@ -20,6 +20,15 @@ Example :
 #include "include/stdli.cpp"
 
 int main() {
-    println("Hello World")
-]
+    println("Hello World");
+}
 ```
+Usage for input :
+
+#include "include/stdli.cpp"
+
+int main() {
+    std::string name;
+    input("Enter you name", name");
+    println("Hello " + name);
+}
